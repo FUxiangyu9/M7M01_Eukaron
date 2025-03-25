@@ -33,7 +33,7 @@ Description: The configuration file for STM32F411CE.
 #define RME_PREEMPT_PRIO_NUM                            (32U)
 
 /* Physical vector number, flag area base and size */
-#define RME_RVM_PHYS_VCT_NUM                            (82U)
+#define RME_RVM_PHYS_VCT_NUM                            (62U)
 #define RME_RVM_PHYS_VCTF_BASE                          (0x10005C00U)
 #define RME_RVM_PHYS_VCTF_SIZE                          (0x200U)
 /* Virtual event number, flag area base and size */
